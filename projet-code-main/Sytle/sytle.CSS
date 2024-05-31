@@ -1,0 +1,147 @@
+/*
+sytle css du site web 
+
+*/
+@font-face {
+    font-family: blackrunt;
+    src: url(BlackRunters.otf);
+}
+body {
+    margin: 0 ;
+   
+}
+
+h1 {
+ 
+  
+    color: #24ff07;
+    font-size: 2.5rem;
+    text-shadow: 1px 1px 2px black;
+    font-family: blackrunt,sans-serif;
+    text-align: center;
+}
+
+h3 {
+    text-align: center;
+}
+
+
+
+
+#hearder-haut{
+    display: flex;
+    flex-direction: row;
+    justify-content:center ;
+    align-items: center;
+    background-color: var(--color-beige);
+    padding: 15px;
+    margin: 0px;
+    height: 35vh;
+    
+
+}
+
+#header-logo {
+width: 20vw;
+
+}
+
+#header-titre {
+width: 100vw;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+
+}
+
+
+
+
+
+#header-login {
+width:20vw;
+border: solid rgb(255, 255, 255) 10px ;
+border-radius: 5px;
+padding: 10px;
+background-color: gainsboro;
+
+
+
+}
+
+
+
+#logo {
+    width: 10vw;
+    font-family: 'Courier New', Courier, monospace;
+    display: block;
+
+}
+
+input, label{
+
+    display: block;
+    
+}
+
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    --color-bleu: #028391;
+    --color-bleu: #01204E;
+    --color-beige: #F6DCAC;
+    --color-beigefoncé:#FEAE6F;
+}
+
+#hearder-bas
+{
+    width: 100vw;
+    height: 8vh;
+    background: url("../assets/livreranger.jpeg");
+}
+
+/*partie centrale*/
+#central {
+display: flex;
+flex-direction: row;
+justify-content: space-between;
+align-items: start;
+
+
+}
+
+
+/* le choix  du site/*
+
+
+/* menu*/
+nav {
+    width: 20vw;
+    height: 60vh;
+    background-color: var(--color-bleu);
+    border-radius: 0 0 15px 15px;
+    box-shadow: 2px 2px 5px 5px;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+.bouton {
+    text-decoration: none;
+    color: #F6DCAC;
+    text-align: center;
+    display: block;
+    padding: 20px;
+    background-color: #ffa600;
+    width: 80%;
+    border-radius: 50%;
+    box-shadow: 10px 5px 5px #d9ff00;
+}
+
+.bouton:hover {
+    box-shadow: none;
+    transition: box-shadow 200ms;
+    
+}
